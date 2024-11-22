@@ -1,6 +1,6 @@
 ---
 - name: First Ansible Playbook
-  hosts:
+  hosts: webserver
   become: yes
   tasks:
     - name: Install Apache pkg
