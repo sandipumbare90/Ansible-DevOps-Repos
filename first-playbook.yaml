@@ -1,0 +1,9 @@
+---
+- name: First Ansible Playbook
+  hosts:
+  become: yes
+  tasks:
+    - name: Install Apache pkg
+      apt:
+        name: apache
+        state: present
